@@ -34,6 +34,8 @@ footer {
   font-size: 12px;
   opacity: 0.4;
   transition: opacity 400ms;
+  background-color: green;
+  text-decoration-color: white;
 }
 
 footer:hover {
@@ -70,12 +72,12 @@ button {
   margin-bottom: 12px;
   border-radius: 6px;
   color: white;
-  background-color: green;
+  background-color: rgb(17, 88, 17);
   transition: background 400ms;
 }
 
 button:hover {
-  background: rgb(179, 177, 177);
+  background: rgb(18, 249, 6);
 }
 
 a {
