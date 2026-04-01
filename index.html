@@ -1,42 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora IMC</title>git
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora IMC</title>
+    git
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body class="white">
+  </head>
+  <body class="white">
     <div>
-        <header>Calculadora de Idade</header>
+      <header>Conversor de moedas</header>
 
-        <ul>
-            <li> 
-                <h5>Informe o seu ano de nascimento  : </h5>
-                <input type="number" name "txtanoascimento" id="txtanoascimento">
-            </li>
-            <li> 
-                <h5>Informe o ano atual  : </h5>
-                <input type="number" name "txtanoatual" id="txtanoatual">
-            </li>
+      <ul>
+        <li>
+          <h5>Informe o valor em reais :</h5>
+          <input type="number" id="txtvalor_reais" />
+        </li>
 
-                <li>
-                    <button onclick="idadeatual()"> Calcular </button>
-                </li>
-             
-            <li>
-                <h5>Calculando sua idade</h5>
-                <input type="text" name="txtidadeatual" id="txtidadeatual">
-            </li>
-                
-
-        </ul>
-        <footer>
-            Desenvolvido por Gustavo Ferreira
-        </footer>
+        <li>
+          <button onclick="converter()">Converter</button>
+        </li>
+        <li>
+          <h5>Seu dinheiro em dolar é igual a :</h5>
+          <input type="number" id="txtvalor_convertido" />
+        </li>
+      </ul>
+      <footer>Desenvolvido por Gustavo Ferreira</footer>
     </div>
-
-    
-</body>
+  </body>
 </html>

@@ -1,11 +1,11 @@
 html {
   /*variáveis*/
-  --bg-color: rgb(73, 71, 71);
+  --bg-color: black;
   --text-color: white;
 }
 
 body.white {
-  --bg-color: orange;
+  --bg-color: green;
   --text-color: rgb(73, 71, 71);
 }
 
@@ -24,7 +24,7 @@ header {
   margin-top: 12px;
   margin-bottom: 12px;
   font-size: 24px;
-  background-color: var(--text-color);
+  background-color: black;
   color: var(--bg-color);
   border-radius: 6px;
 }
